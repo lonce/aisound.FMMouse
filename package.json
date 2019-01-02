@@ -1,0 +1,19 @@
+{
+  "name": "fmmouse",
+  "version": "0.0.1",
+  "description": "demo of aisound in web app",
+  "main": "._fmMouseServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aisound",
+    "interactive",
+    "audio"
+  ],
+  "author": "Lonce Wyse",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

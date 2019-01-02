@@ -1,0 +1,60 @@
+<!--
+This aiSound Code is distributed under LGPL 3
+Copyright (C) 2018 National University of Singapore
+Inquiries: director@anclab.org
+
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 3 of the License, or any later version.
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNULesser General Public License for more details.
+You should have received a copy of the GNU General Public License and GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>
+-->
+<html>
+	<head>
+		<style type="text/css">
+		body
+		{
+			background-color:black;
+			/* background-image: url("Resources/CodeImage.jpg") ; */
+			background-repeat: no-repeat;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+			touch-action: none;
+		}
+		h3 {color:white;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+			text-align: center}
+
+		#imgDiv {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+		}
+		img {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+		</style>
+
+	 	<!--
+		This code demonstrates 
+		a) Using a dynamically created list selector to choose sound jsaModels,
+		b) a dynamically created "Player" to display sliders for sound model parameters
+		-->
+		<title>aiSound Demo</title>
+		<link rel="icon" href="lw_logo.png">
+		<meta name="description" content="aisound: an interactive sound library">
+
+		<script type="module" src="demo_scripts/main.js"></script>
+
+
+	</head>
+	<body >
+		<h3> aiSound Demo: Use the mouse to interact with sound.  </h3> 
+		<div id="imgDiv" unselectable="on">
+			<img id="bg" draggable="false" src="Resources/CodeImage.jpg" width="100%" alt="the code">
+		</div>
+
+	</body>
+</html>
