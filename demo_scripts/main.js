@@ -1,6 +1,6 @@
 
-// get the factory for the sound you want (see aisound.cloud to explore)
-import sndFactory from 'https://aisound.cloud/aiSounds/fm2.js'
+// get the factory for the sound you want (see aisound.sonicthings.org to explore)
+import sndFactory from 'https://aisound.sonicthings.org/aiSounds/fm2.js'
 // create an instance of the sound
 var snd;
 sndFactory().then((newsnd) => {snd=newsnd; showInfo(snd);});
